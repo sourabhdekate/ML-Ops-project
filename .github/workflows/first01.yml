@@ -15,4 +15,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: install apps
-          run: install tree 
+          run: install tree -y
