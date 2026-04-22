@@ -8,11 +8,10 @@ jobs:
           run: echo "Hello world"
         - name: goodbye
           run: echo "Done-bye
-        - name: installing httpd
-          run: sudo apt-get update -y
+       
 
   secondjob:
     runs-on: ubuntu-latest
     steps:
         - name: install apps
-          run: sudo apt-get install -y tree 
+          run: echo "nice ass"
