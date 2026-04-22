@@ -1,5 +1,6 @@
-name: First-wf
-on: workflow_dispatch
+name: First-wf-v2
+on: 
+  workflow_dispatch:
 jobs:
   firstjob:
     runs-on: ubuntu-latest
