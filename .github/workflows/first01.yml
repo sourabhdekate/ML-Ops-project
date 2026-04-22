@@ -9,10 +9,10 @@ jobs:
         - name: goodbye
           run: echo "Done-bye
         - name: installing httpd
-          run: yum install -y
+          run: sudo apt-get update -y
 
   secondjob:
     runs-on: ubuntu-latest
     steps:
         - name: install apps
-          run: install tree -y
+          run: sudo apt-get install -y tree 
